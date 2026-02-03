@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/lakshaytrehan777/demo-ghcr:latest .
+          docker build -t ghcr.io/lakshaytrehan77/demo-ghcr:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/lakshaytrehan777/demo-ghcr:latest
+          docker push ghcr.io/lakshaytrehan77/demo-ghcr:latest
